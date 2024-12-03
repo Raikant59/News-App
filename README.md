@@ -1,16 +1,73 @@
-# news_snack
+# 📰 News App
 
-A new Flutter project.
+A Flutter-based mobile application that provides real-time news updates from across the globe. The app integrates with [NewsAPI](https://newsapi.org) to fetch and display the latest news articles from a variety of sources.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🚀 Features
 
-A few resources to get you started if this is your first Flutter project:
+- **Real-Time News Updates:** Fetches the latest news in real-time using NewsAPI.
+- **Responsive Design:** Adapts seamlessly to different screen sizes.
+- **User-Friendly UI:** Minimalistic and intuitive user interface.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠️ Tech Stack
+
+- **Frontend:** Flutter (Dart)
+- **API Integration:** [NewsAPI](https://newsapi.org)
+
+---
+
+## 🧑‍💻 Installation
+
+1. **Clone the Repository:**
+   
+   ```bash
+   git clone https://github.com/your-username/news-app.git
+   cd news-app
+   ```
+   
+3. **Install Dependencies:**
+   
+   ```bash
+   flutter pub get
+   ```
+   
+5. **Set up API Key:**
+   - **Create a free account on NewsAPI and get your API key.**
+   - **Add the API key to your Flutter project:**
+     - Create a .env file in the root directory.
+     - Add the following line:
+    
+       ```env
+       API_KEY=your_api_key_here
+       ```
+    
+4. **Run the Application:**
+   ```bash
+   flutter run
+   ```
+
+---
+
+## 🌐 API Integration
+- **This app uses the News API to fetch news articles.**
+  
+  ```bash
+   https://newsapi.org/v2/top-headlines?country=us&apiKey=YOUR_API_KEY
+  ```
+
+---
+
+## 👥 Author
+  **Raikant Chaudhary**
+
+   - [GitHub](https://github.com/Raikant59)
+   - [LinkedIn](www.linkedin.com/in/raikantchaudhary)
+   - [Email](rakantkumar1234@gmail.com)
+
+---
+
+## 📩 Contact
+**For any queries or issues, feel free to reach out at rakantkumar1234@gmail.com.**
